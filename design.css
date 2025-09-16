@@ -1,0 +1,51 @@
+body{background-color: #f6eff7;font-family: Arial, Helvetica, sans-serif;color: #333;}
+header{background-color: #3b213f;color: white;padding: 25px;display: flex;justify-content: space-between;align-items: center;}
+nav a{color: white;text-decoration: none;font-weight: bold;margin: 0 11px;font-size:20px;}
+nav a:hover{color: white;}
+header h1{font-size:40px;}
+.hero{text-align: center;background:url(hotel.webp) center/cover no-repeat;color: white;padding: 300px 250px;font-size: 20px;}
+.hero button{padding:10px;border-radius: 20px;font-size: 15px;background-color: #faf3fb;transition: all 1s ease;}
+.hero a{text-decoration: none;color: black;}
+.hero button:hover{transform: scale(1.1);}
+.container{display: flex;gap: 20px;padding: 30px;flex-wrap: wrap;justify-content:space-around;}
+.cards{flex: 1;border-radius: 10px;background-color: white;box-shadow: 0 5px 9px black;padding:20px;min-width: 250px;transition: all 1s ease;}
+.cards:hover{transform: scale(1.1);}
+.feedback{display: flex;gap: 20px;padding: 30px;flex-wrap: wrap;justify-content:space-around}
+.hotel{flex: 1;border-radius: 10px;background-color: white;box-shadow: 0 5px 9px black;padding:20px;min-width: 250px;transition: all 1s ease;text-align: center;}
+.hotel:hover{transform: scale(1.1);}
+footer{background-color: #3b213f;text-align: center;padding: 15px;color: white;}
+.service{display: flex;padding: 20px;flex-wrap: wrap;justify-content:center;gap: 20px;display: grid;}
+.facilities{flex: 1;border-radius: 10px;background-color: white;box-shadow: 0 1px 2px;padding: 20px;transition: all 1s ease;text-align: center;}
+.facilities:hover{transform: scale(1.1);}
+.facilities p{font-size: 15px;}
+.hotel1{display: flex;gap: 20px;padding: 30px;flex-wrap: wrap;justify-content:space-around;}
+.rooms figure img{display: block;margin-left: auto;margin-right: auto;border-radius: 10px;}
+.rooms{flex: 1;border-radius: 10px;background-color: white;box-shadow: 0 5px 9px black;min-width: 250px;transition: all 1s ease;padding:20px;}
+.rooms button{background-color:#3b213f;color: white;padding:8px 15px;font-size: 15px;border-radius: 10px;}
+.rooms button:hover{background-color: white; color:#3b213f}
+.rooms h3{font-size: 25px;color:rgb(134, 23, 134)}
+.contact{background-color: #f39c12;color: white;padding: 40px 20px;text-align: center;}
+.contact button{background-color: #3b213f; color: white;padding: 12px 20px;font-weight: bold;font-size: 25px;border: 5px;}
+.contact button:hover{background-color: white;color: #3b213f;}
+h2{text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.grid{display: grid;grid-template-columns: 1fr 2fr;gap: 20px;padding: 20px;min-height: 70vh;}
+.sidework{background-color: #ecf0f1;box-shadow: 0 5px 13px black;border-radius: 10px;padding: 20px;}
+.sidework h2{font-size: 30px}
+.booking{display: grid;place-items: centre;background-color: #ecf0f1;box-shadow: 0 5px 13px;padding: 20px 40px;border-radius:10px;}
+.booking h2{font-size: 30px;}
+.booking p{text-align: center;}
+.booking-form{display: grid;gap: 20px;width:50%;}
+.booking-form input,.booking-form textarea{border-radius: 10px;padding: 10px;padding: 10px;border: 1px solid #ccc;margin: 10px}
+.booking-form input{justify-content: center;}
+.booking-form button{background-color:#3b213f;color: white;padding:15px;border-radius: 10px;font-weight: bold;font-size: 20px;width: 250px;margin-left: 15px;}
+.booking-form button:hover{background-color: white;color:#3b213f}
+.gallery{display: grid;grid-template-columns: 1fr 1fr;flex-wrap: wrap;}
+figure{max-width: 400px;}
+figure img{border-radius: 10px}
+figcaption{text-align: center;font-weight: bolder;}
+h1{text-align: center;font-size: 35px;}
+.hotel1 p{font-size: 25px;}
+.hotel1 h2{font-size: 25px;}
+.thank{background-image:url(BACKGROUND.jpeg);}
+.thank{background-repeat: no-repeat;background-position: center;background-size: cover;}
+.thank h1{font-size: 200px;font-family: 'Times New Roman', Times, serif;}
